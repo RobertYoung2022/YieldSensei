@@ -29,6 +29,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# Allow example env file
+!.env.example
+
 # vercel
 .vercel
 

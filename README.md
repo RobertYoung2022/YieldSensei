@@ -41,7 +41,13 @@ YieldSensei is an AI-powered DeFi advisor that helps users find the best yield o
    npm install
    ```
 
-3. Create a `.env.local` file in the root with:
+3. Copy the example env file and enter your keys:
+
+   ```bash
+   cp .env.example .env.local
+   ```
+
+   Then edit `.env.local` to set:
 
    ```env
    NEXT_PUBLIC_DEFILLAMA_API_KEY=your_defillama_key
