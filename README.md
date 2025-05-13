@@ -105,3 +105,14 @@ Contributions are welcome! Please open issues or pull requests.
 ## License
 
 MIT © 2024 RedeploySensei Team 
+
+## AI Agent Revamp (branch: ai-agent-revamp)
+
+**What's Changed:**
+- Added Zod schemas in `app/api/tools/types.ts` for strict input/output validation of all tools.
+- Introduced DRY Jest helpers (`app/__tests__/utils.tsx`) and comprehensive test suites for:
+  - YieldFinder, GasEstimator, RiskAnalyzer  
+  - ImpermanentLossCalculator, AlertMonitor  
+  - PortfolioBalancer, TimingAdvisor, EduTip
+- Implemented mocked tool implementations under `app/api/tools/` for immediate local development.
+- Updated `babel.config.js` to enable TypeScript & React support in Jest tests. 
